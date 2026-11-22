@@ -1,0 +1,61 @@
+title: Spr1ngLif3
+description: "An hacker's basement"
+url: "https://spr1nglif3.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Rome
+
+author:
+  name: Spr1ngLif3
+
+remote_theme: Spr1ngLif3/jekyll-theme-neuromancer
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+neuromancer:
+  accent: violet
+  prompt_user: guest
+  prompt_host: rabbit_hole
+  home_posts: 5
+
+  terminal:
+    - command: whoami
+      output: Spr1ngLif3
+    - command: cat motd
+      output: The best use one can make of power is to give it up
+
+  nav:
+    - title: blog
+      url: /blog/
+    - title: tags
+      url: /tags/
+    - title: search
+      url: /search/
+    - title: about
+      url: /about/
+
+  social:
+    - name: github
+      url: https://github.com/Spr1ngLif3
