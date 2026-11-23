@@ -8,7 +8,7 @@ timezone: Europe/Rome
 author:
   name: Spr1ngLif3
 
-remote_theme: Spr1ngLif3/jekyll-theme-neuromancer@v0.2.0
+remote_theme: Spr1ngLif3/jekyll-theme-neuromancer@v0.3.0
 
 plugins:
   - jekyll-remote-theme
@@ -36,13 +36,11 @@ defaults:
 
 neuromancer:
   accent: violet
-  prompt_user: guest
-  prompt_host: rabbit_hole
+  prompt_host: Spr1ngLif3
   home_posts: 5
-
   terminal:
     - command: whoami
-      output: Spr1ngLif3
+      output: Pasquale Macchia
     - command: cat motd
       output: The best use one can make of power is to give it up
 
@@ -51,11 +49,15 @@ neuromancer:
       url: /blog/
     - title: tags
       url: /tags/
-    - title: search
-      url: /search/
     - title: about
       url: /about/
 
   social:
     - name: github
       url: https://github.com/Spr1ngLif3
+    - name: linkedin
+      url: https://linkedin.com/in/pasquale-macchia-837450446
+    - name: hackthebox
+      url: https://profile.hackthebox.com/profile/01a0764f-58c6-7129-85e0-f023b96f0ebc
+    - name: tryhackme
+      url: https://tryhackme.com/p/Spr1ngLif3
