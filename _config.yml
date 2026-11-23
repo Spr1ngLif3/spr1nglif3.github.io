@@ -8,7 +8,7 @@ timezone: Europe/Rome
 author:
   name: Spr1ngLif3
 
-remote_theme: Spr1ngLif3/jekyll-theme-neuromancer@v0.3.0
+remote_theme: Spr1ngLif3/jekyll-theme-neuromancer@v0.3.1
 
 plugins:
   - jekyll-remote-theme
@@ -37,6 +37,9 @@ defaults:
 neuromancer:
   accent: violet
   prompt_host: Spr1ngLif3
+
+  avatar: /assets/images/Avatar.jpg
+  avatar_alt: Spr1ngLif3_avatar
   home_posts: 5
   terminal:
     - command: whoami
